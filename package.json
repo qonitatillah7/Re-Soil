@@ -1,0 +1,14 @@
+{
+  "name": "resoil-digital-restoration-loop",
+  "version": "1.0.0",
+  "description": "RE-SOIL Digital Restoration Loop — platform decision-support, monitoring, pelaporan, dan restorasi adaptif untuk gambut tropis pascakebakaran.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "npx --yes http-server . -p 8080 -c-1",
+    "test": "node tests/smoke.test.js"
+  },
+  "devDependencies": {
+    "jsdom": "^24.1.0"
+  }
+}
